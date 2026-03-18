@@ -166,5 +166,7 @@ dist
 dist/
 npm-debug.log
 yarn-error.log
+package-lock.json
+.vs
 
 # End of https://www.toptal.com/developers/gitignore/api/vuejs,node,visualstudiocode

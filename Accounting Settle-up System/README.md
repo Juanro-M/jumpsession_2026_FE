@@ -26,6 +26,7 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 ## Project Setup
 
 ```sh
+cd into 'Accounting Settle-up System'
 npm install
 ```
 
