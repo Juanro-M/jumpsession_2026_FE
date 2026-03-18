@@ -1,6 +1,13 @@
 export const AuthService = {
-  async getUser(){
+  
+  async login(){
+    const response = ""
+    return response;
+  },
+
+  async register(){
     const response = ""
     return response;
   }
+
 };
