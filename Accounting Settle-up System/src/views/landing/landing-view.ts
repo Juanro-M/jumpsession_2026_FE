@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue'
-import buttonComponent from '@/components/button/buttonComponent.vue'
+import buttonComponent from '@/components/button/button-component.vue'
 
 export default defineComponent({
   components: {

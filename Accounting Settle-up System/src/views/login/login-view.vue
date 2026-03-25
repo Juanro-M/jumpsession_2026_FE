@@ -1,4 +1,4 @@
-<script lang="ts" src="./loginView.ts"></script>
+<script lang="ts" src="./login-view.ts"></script>
 
 <template>
   <div class="login-class">
@@ -7,4 +7,4 @@
   </div>
 </template>
 
-<style lang="scss" src="./loginView.scss"></style>
+<style lang="scss" src="./login-view.scss"></style>

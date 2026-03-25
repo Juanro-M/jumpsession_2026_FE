@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import loginView from '@/views/login/loginView.vue'
+import loginView from '@/views/login/login-view.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -10,7 +10,7 @@ const router = createRouter({
     },
     {
       path: '/landing',
-      component: () => import('@/views/landing/landingView.vue')
+      component: () => import('@/views/landing/landing-view.vue')
     }
   ],
 })

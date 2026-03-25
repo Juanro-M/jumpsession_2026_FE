@@ -1,4 +1,4 @@
-<script lang="ts" src="./landingView.ts"></script>
+<script lang="ts" src="./landing-view.ts"></script>
 
 <template>
   <div class="landing-class">
@@ -6,4 +6,4 @@
   </div>
 </template>
 
-<style lang="scss" src="./landingView.scss"></style>
+<style lang="scss" src="./landing-view.scss"></style>
