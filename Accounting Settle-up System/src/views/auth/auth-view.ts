@@ -60,6 +60,7 @@ export function useAuthLogic() {
         loginMessage.value = ''
         loginIsError.value = false
         try {
+            router.push("/landing");
             const response = await fetch(`${apiBase}/login`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },

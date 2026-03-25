@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useAuthLogic } from './AuthView.ts'
+import { useAuthLogic } from './auth-view.ts'
 
 const {
     isRightPanelActive,
@@ -91,4 +91,4 @@ const {
   </div>
 </template>
 
-<style scoped lang="scss" src="./AuthView.scss"></style>
+<style scoped lang="scss" src="./auth-view.scss"></style>

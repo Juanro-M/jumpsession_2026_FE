@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import AuthView from '@/views/auth/AuthView.vue'
+import authView from '@/views/auth/auth-view.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,7 +7,7 @@ const router = createRouter({
     {
       name: 'auth',
       path: '/',
-      component: AuthView
+      component: authView
     },
     {
       name: 'landing',
