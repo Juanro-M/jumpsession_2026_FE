@@ -1,18 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-h1{
+h1 {
   font-size: 2rem;
   color: #e71b1b;
 }
 
-.landing-class{
+.landing-class {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
   height: 100vh;
 }

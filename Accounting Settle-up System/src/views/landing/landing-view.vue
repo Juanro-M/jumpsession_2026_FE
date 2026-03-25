@@ -2,7 +2,11 @@
 
 <template>
   <div class="landing-class">
-    <h1 style="margin-bottom: 2rem;">Landing View</h1>
+    <sideNavComponent/>
+    <div>
+      <h1 style="margin-bottom: 2rem;">Landing View</h1>
+      <!-- Card layout -->
+    </div>
   </div>
 </template>
 

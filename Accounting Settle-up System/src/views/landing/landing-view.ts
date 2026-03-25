@@ -1,8 +1,8 @@
 import { defineComponent } from 'vue'
-import buttonComponent from '@/components/button/button-component.vue'
+import sideNavComponent from '@/components/side-nav/side-nav-component.vue'
 
 export default defineComponent({
   components: {
-    ButtonComponent: buttonComponent
+    sideNavComponent: sideNavComponent
   }
 })
