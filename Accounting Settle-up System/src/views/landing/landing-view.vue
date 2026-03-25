@@ -6,6 +6,12 @@
     <div class="landing-content">
       <h1 style="margin-bottom: 2rem;">Landing View</h1>
       <!-- Card layout -->
+
+      <div class="card-container">
+        <cardComponent/>
+        <cardComponent/>
+        <cardComponent/>
+      </div>
     </div>
   </div>
 </template>
