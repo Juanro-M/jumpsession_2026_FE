@@ -1,3 +1,17 @@
+:root {
+  --bg-ivory: #f5f0e6;
+  --card-dark: #1a1a1a;
+  --card-orange: #cc6633;
+  --input-cream: #f0ece2;
+  --text-white: #ffffff;
+  --text-dark: #333333;
+  --btn-orange: #cc6633;
+  --btn-dark: #1a1a1a;
+  --font-main: 'Outfit', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +19,15 @@
 }
 
 body {
-  height: 100vh;
-  font-family: Arial, sans-serif;
-  background-color: #F5F0E9;
+  background-color: var(--bg-ivory);
+  font-family: var(--font-main);
+  color: var(--text-dark);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  width: 100%;
 }
