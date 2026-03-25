@@ -1,8 +1,9 @@
+import router from "@/router/router";
+
 export const AuthService = {
   
   async login(){
-    const response = ""
-    return response;
+    router.push("/landing");
   },
 
   async register(){
