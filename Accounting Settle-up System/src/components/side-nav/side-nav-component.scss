@@ -1,17 +1,22 @@
 .side-nav {
-  width: 15%;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  min-width: 180px;
+  max-width: 240px;
+  min-height: 100vh;
   background-color: #1C1812;
   color: #F5F0E9;
   padding: 20px;
+  overflow-y: auto;
 }
 
 .side-nav ul {
+  flex: 1;
   list-style: none;
-  background-color: #1C1812;
+  background-color: transparent;
   padding: 0;
   margin: 0;
-  height: 75%;
 }
 
 .side-nav li {
@@ -25,6 +30,7 @@
 .side-nav a {
   text-decoration: none;
   color: #F5F0E9;
+  display: block;
 }
 
 .side-nav h1 {
@@ -34,16 +40,52 @@
   padding: 10px 10px 10px 0;
 }
 
-.nav-footer{
-    background-color: #1C1812;
-    color: #F5F0E9;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
+.nav-footer {
+  margin-top: auto;
+  background-color: #1C1812;
+  color: #F5F0E9;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
 
 hr.solid {
-  border-top: 1px solid #bbb;
+  border-top: 1px solid #F5F0E9;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
+}
+
+.logout-btn {
+  background-color: #C7612A;
+  color: #F5F0E9;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .landing-class {
+    flex-direction: column;
+  }
+
+  .side-nav {
+    width: 100%;
+    min-width: auto;
+    max-width: 100%;
+    height: auto;
+    min-height: auto;
+    padding: 16px;
+    position: relative;
+  }
+
+  .side-nav ul {
+    height: auto;
+  }
+
+  .side-nav li {
+    margin: 8px 0;
+  }
 }

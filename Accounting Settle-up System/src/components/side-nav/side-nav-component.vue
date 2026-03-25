@@ -15,7 +15,7 @@
             <hr class="solid">
             <div>
                 <p>Logged in as: User</p>
-                <button class="logout-btn">Logout</button>
+                <button class="logout-btn" @click="logout">Logout</button>
             </div>
         </div>
     </nav>
