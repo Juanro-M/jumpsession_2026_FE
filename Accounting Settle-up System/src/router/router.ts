@@ -5,20 +5,22 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
       name: 'auth',
+      path: '/',
       component: AuthView
     },
     {
-      path: '/landing',
       name: 'landing',
+      path: '/landing',
       component: () => import('@/views/landing/landing-view.vue')
     },
     {
+      name: 'group',
       path: '/group',
       component: () => import('@/views/group/group-view.vue')
     },
     {
+      name: 'payment',
       path: '/payment',
       component: () => import('@/views/payment/payment-view.vue')
     }
