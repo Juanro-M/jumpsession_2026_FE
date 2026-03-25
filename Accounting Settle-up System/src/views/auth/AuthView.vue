@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useAuthLogic } from './AuthView.ts'
+import { useAuthLogic } from './AuthView'
 
 const {
     isRightPanelActive,
