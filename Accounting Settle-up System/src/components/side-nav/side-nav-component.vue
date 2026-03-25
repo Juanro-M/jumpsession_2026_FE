@@ -7,8 +7,8 @@
         <hr class="solid">
         <ul>
             <li><a href="/landing">Dashboard</a></li>
-            <li><a href="/profile">Groups</a></li>
-            <li><a href="/settings">Payments</a></li>
+            <li><a href="/group">Groups</a></li>
+            <li><a href="/payment">Payments</a></li>
         </ul>
 
         <div class="nav-footer">

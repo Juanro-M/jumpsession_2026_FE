@@ -11,6 +11,14 @@ const router = createRouter({
     {
       path: '/landing',
       component: () => import('@/views/landing/landing-view.vue')
+    },
+    {
+      path: '/group',
+      component: () => import('@/views/group/group-view.vue')
+    },
+    {
+      path: '/payment',
+      component: () => import('@/views/payment/payment-view.vue')
     }
   ],
 })
