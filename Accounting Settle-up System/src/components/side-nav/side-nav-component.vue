@@ -9,6 +9,7 @@
             <li><a href="/landing">Dashboard</a></li>
             <li><a href="/group">Groups</a></li>
             <li><a href="/payment">Payments</a></li>
+            <li><a href="/friends">Friends</a></li>
         </ul>
 
         <div class="nav-footer">
