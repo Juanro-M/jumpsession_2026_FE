@@ -1,4 +1,4 @@
-<script lang="ts" src="./card-component.ts">
+<script lang="ts" src="./landing-card-component.ts">
 </script>
 
 <template>
@@ -9,4 +9,4 @@
     </div>
 </template>
 
-<style lang="scss" src="./card-component.scss"></style>
+<style lang="scss" src="./landing-card-component.scss"></style>
