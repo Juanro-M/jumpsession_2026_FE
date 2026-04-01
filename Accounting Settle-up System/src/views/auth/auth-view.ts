@@ -20,7 +20,7 @@ export function useAuthLogic() {
     const regIsError = ref(false)
     const showRegPassword = ref(false)
 
-    const apiBase = 'http://localhost:5108/api/auth'
+    const apiBase = 'https://localhost:7007/api/auth'
 
     const togglePanel = () => {
         isRightPanelActive.value = !isRightPanelActive.value
@@ -60,6 +60,7 @@ export function useAuthLogic() {
         loginMessage.value = ''
         loginIsError.value = false
         try {
+            router.push("/landing");
             const response = await fetch(`${apiBase}/login`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },

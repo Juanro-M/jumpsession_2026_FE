@@ -1,0 +1,16 @@
+h1 {
+  font-size: 2rem;
+  color: #1C1812;
+}
+
+.payment {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.payment-content {
+  flex: 1;
+  padding: 40px;
+  background-color: transparent;
+}

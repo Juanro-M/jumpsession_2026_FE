@@ -1,18 +1,33 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import AuthView from '@/views/auth/AuthView.vue'
+import authView from '@/views/auth/auth-view.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
       name: 'auth',
-      component: AuthView
+      path: '/',
+      component: authView
     },
     {
-      path: '/landing',
       name: 'landing',
+      path: '/landing',
       component: () => import('@/views/landing/landing-view.vue')
+    },
+    {
+      name: 'group',
+      path: '/group',
+      component: () => import('@/views/group/group-view.vue')
+    },
+    {
+      name: 'payment',
+      path: '/payment',
+      component: () => import('@/views/payment/payment-view.vue')
+    },
+    {
+      name: 'friends',
+      path: '/friends',
+      component: () => import('@/views/friends/friends-view.vue')
     }
   ],
 })
