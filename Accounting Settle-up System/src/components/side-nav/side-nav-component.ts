@@ -5,6 +5,9 @@ export default defineComponent({
     methods: {
             logout() {
                 router.push('/');
-            }
+            },
+            navigateTo(route: string){
+                router.push(route);
+            },
         }
 })

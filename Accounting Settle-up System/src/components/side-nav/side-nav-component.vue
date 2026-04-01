@@ -6,12 +6,11 @@
         <h1>Accounting Settle-up System</h1>
         <hr class="solid">
         <ul>
-            <li><a href="/landing">Dashboard</a></li>
-            <li><a href="/group">Groups</a></li>
-            <li><a href="/payment">Payments</a></li>
-            <li><a href="/friends">Friends</a></li>
+            <li @click="navigateTo('landing')">Dashboard</li>
+            <li @click="navigateTo('group')">Groups</li>
+            <li @click="navigateTo('payment')">Payments</li>
+            <li @click="navigateTo('friends')">Friends</li>
         </ul>
-
         <div class="nav-footer">
             <hr class="solid">
             <div>
