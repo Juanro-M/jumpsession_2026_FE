@@ -20,7 +20,7 @@ export function useAuthLogic() {
     const regIsError = ref(false)
     const showRegPassword = ref(false)
 
-    const apiBase = 'https://localhost:7007/api/auth'
+    const apiBase = import.meta.env.VITE_API_URL + '/auth'
 
     const togglePanel = () => {
         isRightPanelActive.value = !isRightPanelActive.value
